@@ -56,7 +56,7 @@
             Console.Write("Enter your name: ");
             String name = Console.ReadLine();
             Console.WriteLine();
-            if (name == "aldworth".ToLower())
+            if (name.ToLower() == "aldworth")
             {
                 secretName = 5;
             }
